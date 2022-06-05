@@ -166,12 +166,12 @@
 
         switch (element.kind) {
             case "rectangle":
-                ctx.fillStyle = "#9F0893";
+                ctx.fillStyle = "#FF9333";
                 ctx.fillRect(element.x, element.y, element.width, element.height);
                 break;
 
             case "circle":
-                ctx.fillStyle = "#9F0893";
+                ctx.fillStyle = "#FF9333"; 
                 ctx.beginPath();
                 ctx.arc(element.x, element.y, element.radius, 0, 7);
                 ctx.fill();
